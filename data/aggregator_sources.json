@@ -1,0 +1,316 @@
+{
+  "generatedAt": "2026-05-31",
+  "description": "机构/聚合网站线索源清单。仅用于发现招考线索，最终以官方公告为准。",
+  "sources": [
+    {
+      "name": "华图公考日历",
+      "url": "https://rili.huatu.com/",
+      "type": "exam_calendar",
+      "regions": [
+        "全国",
+        "广东",
+        "湖北"
+      ],
+      "useFor": [
+        "报名时间",
+        "考试时间",
+        "公告线索",
+        "事业单位",
+        "公务员",
+        "三支一扶"
+      ],
+      "trustLevel": "线索来源，需官方核验",
+      "notes": "适合快速发现近期报名和考试节点。"
+    },
+    {
+      "name": "广东华图教育",
+      "url": "https://gd.huatu.com/",
+      "type": "training_institution",
+      "regions": [
+        "广东"
+      ],
+      "useFor": [
+        "广东公务员",
+        "广东事业单位",
+        "广东三支一扶",
+        "月度公告汇总"
+      ],
+      "trustLevel": "线索来源，需官方核验",
+      "notes": "搜索结果显示有广东招聘/报名信息，如广州市人社局系统事业单位等。"
+    },
+    {
+      "name": "华图广东事业单位",
+      "url": "https://sydw.huatu.com/gd/",
+      "type": "training_institution",
+      "regions": [
+        "广东"
+      ],
+      "useFor": [
+        "广东事业单位招聘公告",
+        "职位表",
+        "报名入口",
+        "考试时间"
+      ],
+      "trustLevel": "线索来源，需官方核验",
+      "relatedPages": [
+        "https://sydw.huatu.com/gd/kssj/",
+        "https://sydw.huatu.com/gd/zwb/",
+        "https://gd.huatu.com/sydw/202506.html"
+      ]
+    },
+    {
+      "name": "湖北华图教育",
+      "url": "https://hb.huatu.com/",
+      "type": "training_institution",
+      "regions": [
+        "湖北"
+      ],
+      "useFor": [
+        "湖北公务员",
+        "湖北事业单位",
+        "教师招聘",
+        "三支一扶",
+        "公安招警"
+      ],
+      "trustLevel": "线索来源，需官方核验"
+    },
+    {
+      "name": "华图湖北事业单位",
+      "url": "https://sydw.huatu.com/hb/",
+      "type": "training_institution",
+      "regions": [
+        "湖北"
+      ],
+      "useFor": [
+        "湖北事业单位招聘公告",
+        "职位表",
+        "报名入口",
+        "考试时间"
+      ],
+      "trustLevel": "线索来源，需官方核验",
+      "relatedPages": [
+        "https://sydw.huatu.com/zhaopin/hb/",
+        "https://sydw.huatu.com/hb/kssj/",
+        "https://sydw.huatu.com/hb/zwb/"
+      ]
+    },
+    {
+      "name": "中公教育考试资讯",
+      "url": "https://www.eoffcn.com/kszx/",
+      "type": "training_institution",
+      "regions": [
+        "全国",
+        "广东",
+        "湖北"
+      ],
+      "useFor": [
+        "公务员",
+        "事业单位",
+        "报名提醒",
+        "公告汇总"
+      ],
+      "trustLevel": "线索来源，需官方核验",
+      "relatedPages": [
+        "https://www.eoffcn.com/kszx/detail/1770054.html",
+        "https://www.eoffcn.com/kszx/detail/1974116.html",
+        "https://www.eoffcn.com/kszx/detail/1974132.html"
+      ],
+      "notes": "搜索结果中找到广东公务员、广东事业单位、湖北事业单位相关整理页。"
+    },
+    {
+      "name": "粉笔资讯-湖北",
+      "url": "https://www.fenbi.com/page/zhaokao/1157?filter=0&page=0",
+      "type": "training_institution",
+      "regions": [
+        "湖北"
+      ],
+      "useFor": [
+        "湖北公务员",
+        "湖北事业单位",
+        "国企",
+        "银行",
+        "招警",
+        "医疗"
+      ],
+      "trustLevel": "线索来源，需官方核验",
+      "notes": "搜索结果直接命中湖北招考资讯页。广东粉笔页后续可继续补充。"
+    },
+    {
+      "name": "上岸鸭公考",
+      "url": "https://www.gwy.com/",
+      "type": "exam_aggregator",
+      "regions": [
+        "全国",
+        "广东",
+        "湖北"
+      ],
+      "useFor": [
+        "公务员公告",
+        "事业单位公告",
+        "报名入口",
+        "考试资讯"
+      ],
+      "trustLevel": "线索来源，需官方核验",
+      "relatedPages": [
+        "https://www.gwy.com/dfgwy/ksgg/",
+        "https://www.gwy.com/sydw/kszx/",
+        "https://www.gwy.com/hugwy/",
+        "https://m.gwy.com/sydw/zpxx/index_hu.html"
+      ]
+    },
+    {
+      "name": "事业单位招聘考试网",
+      "url": "https://www.shiyebian.com/",
+      "type": "exam_aggregator",
+      "regions": [
+        "全国",
+        "广东",
+        "湖北"
+      ],
+      "useFor": [
+        "事业单位招聘公告",
+        "岗位表线索",
+        "报名时间"
+      ],
+      "trustLevel": "线索来源，需官方核验"
+    },
+    {
+      "name": "华图事业单位在线",
+      "url": "https://www.sydw8.com/",
+      "type": "exam_aggregator",
+      "regions": [
+        "全国",
+        "广东",
+        "湖北"
+      ],
+      "useFor": [
+        "事业单位招聘公告",
+        "岗位表",
+        "报名入口",
+        "成绩查询"
+      ],
+      "trustLevel": "线索来源，需官方核验",
+      "relatedPages": [
+        "https://www.sydw8.com/hb/"
+      ]
+    },
+    {
+      "name": "格木教育",
+      "url": "https://www.gemu.cn/",
+      "type": "regional_training_institution",
+      "regions": [
+        "湖北"
+      ],
+      "useFor": [
+        "湖北公务员",
+        "湖北事业单位",
+        "湖北三支一扶",
+        "资格复审",
+        "面试公告",
+        "拟录用公示"
+      ],
+      "trustLevel": "线索来源，需官方核验",
+      "relatedPages": [
+        "https://wuhan.gemu.cn/",
+        "https://xiaogan.gemu.cn/",
+        "https://jingmen.gemu.cn/",
+        "https://m.gemu.cn/"
+      ]
+    },
+    {
+      "name": "金标尺教育广东考试日历",
+      "url": "https://guangdong.m.jinbiaochi.com/calendar",
+      "type": "training_institution_calendar",
+      "regions": [
+        "广东"
+      ],
+      "useFor": [
+        "广东公务员",
+        "广东选调生",
+        "事业单位",
+        "教师招聘",
+        "三支一扶",
+        "考试日历"
+      ],
+      "trustLevel": "线索来源，需官方核验"
+    },
+    {
+      "name": "考吧广东人事考试信息网",
+      "url": "https://www.kbgwy.com/",
+      "type": "exam_aggregator",
+      "regions": [
+        "广东"
+      ],
+      "useFor": [
+        "广东公务员",
+        "广东事业单位",
+        "招考公告汇总"
+      ],
+      "trustLevel": "线索来源，需官方核验"
+    },
+    {
+      "name": "公务员招考聚合网 zggwy",
+      "url": "https://www.zggwy.com/",
+      "type": "exam_aggregator",
+      "regions": [
+        "全国",
+        "广东",
+        "湖北"
+      ],
+      "useFor": [
+        "省考",
+        "事业单位",
+        "教师招聘",
+        "公告聚合"
+      ],
+      "trustLevel": "线索来源，需官方核验"
+    },
+    {
+      "name": "灵鹏教育",
+      "url": "https://m.0peng.cn/",
+      "type": "regional_training_institution",
+      "regions": [
+        "湖北",
+        "武汉"
+      ],
+      "useFor": [
+        "湖北三支一扶",
+        "湖北事业单位",
+        "资格复审",
+        "面试公告"
+      ],
+      "trustLevel": "线索来源，需官方核验",
+      "notes": "搜索结果命中湖北三支一扶笔试成绩/资格复审/面试公告汇总。"
+    },
+    {
+      "name": "楚公教育",
+      "url": "https://www.chugongedu.com/",
+      "type": "regional_training_institution",
+      "regions": [
+        "湖北"
+      ],
+      "useFor": [
+        "湖北公务员",
+        "湖北事业单位",
+        "教师招聘"
+      ],
+      "trustLevel": "线索来源，需官方核验"
+    },
+    {
+      "name": "本地宝招聘-中山/广东",
+      "url": "https://m.zs.bendibao.com/job/kgkb/",
+      "type": "local_life_aggregator",
+      "regions": [
+        "广东",
+        "中山"
+      ],
+      "useFor": [
+        "广东公务员",
+        "广东事业单位",
+        "国企央企",
+        "本地招聘线索"
+      ],
+      "trustLevel": "线索来源，需官方核验"
+    }
+  ]
+}

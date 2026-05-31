@@ -1,0 +1,14 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# Local exports that may contain private notes
+local/
+private/
+*.xlsx
+*.xls
+*.doc
+*.docx
+*.pdf
