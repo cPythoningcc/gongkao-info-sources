@@ -1,0 +1,1785 @@
+{
+  "generatedAt": "2026-06-01",
+  "description": "全国范围公考、事业单位、三支一扶、专业技术资格考试等招聘/报名入口清单。重点收录国家级入口、各省人事考试网、人社厅/局、组织部/党建网等官方渠道。",
+  "importantNote": "各省网站可能改版或迁移；报名前必须以当年官方公告中的报名链接为准。本清单不包含个人筛岗信息。",
+  "usage": [
+    "国考优先看 national 中的国家公务员局和 bm.scs.gov.cn 年度专题。",
+    "省考/事业单位优先看 provinceEntries 中对应省份的人事考试网、人社厅/局、组织部/党建网。",
+    "专业技术资格考试优先看中国人事考试网。",
+    "第三方/平台入口仅作导航，缴费报名前需回官方公告核验。"
+  ],
+  "counts": {
+    "national": 11,
+    "provinceEntries": 96,
+    "provincesCovered": 32,
+    "total": 107
+  },
+  "national": [
+    {
+      "name": "国家公务员局",
+      "url": "http://www.scs.gov.cn/",
+      "level": "国家级",
+      "region": "全国",
+      "category": "公务员主管部门",
+      "examTypes": [
+        "国家公务员",
+        "中央机关遴选选调",
+        "公务员政策"
+      ],
+      "priority": 1,
+      "verificationStatus": "已常用核验",
+      "notes": "国考、中央机关遴选选调等权威入口。"
+    },
+    {
+      "name": "国家公务员局考试录用专题/报名系统",
+      "url": "http://bm.scs.gov.cn/",
+      "level": "国家级",
+      "region": "全国",
+      "category": "官方报名/专题系统",
+      "examTypes": [
+        "国考报名",
+        "职位表",
+        "补充录用",
+        "准考证",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "已常用核验",
+      "notes": "具体年度专题通常在该域名下，例如 /kl2026。"
+    },
+    {
+      "name": "人力资源和社会保障部",
+      "url": "https://www.mohrss.gov.cn/",
+      "level": "国家级",
+      "region": "全国",
+      "category": "国家部委",
+      "examTypes": [
+        "事业单位人事管理政策",
+        "三支一扶政策",
+        "就业政策"
+      ],
+      "priority": 2,
+      "verificationStatus": "已常用核验",
+      "notes": "政策类和全国性人社信息。"
+    },
+    {
+      "name": "全国人社政务服务平台",
+      "url": "https://www.12333.gov.cn/",
+      "level": "国家级",
+      "region": "全国",
+      "category": "人社政务服务平台",
+      "examTypes": [
+        "人社政务服务",
+        "就业服务",
+        "职业资格服务"
+      ],
+      "priority": 3,
+      "verificationStatus": "已检索核验",
+      "notes": "人社部主办的全国人社政务服务平台。"
+    },
+    {
+      "name": "中国人事考试网",
+      "url": "https://www.cpta.com.cn/",
+      "level": "国家级",
+      "region": "全国",
+      "category": "专业技术人员资格考试官方平台",
+      "examTypes": [
+        "专业技术资格考试",
+        "注册城乡规划师",
+        "报名通知",
+        "准考证",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "已常用核验",
+      "notes": "全国专业技术人员资格考试核心入口。"
+    },
+    {
+      "name": "全国专业技术人员资格考试报名服务平台",
+      "url": "http://zg.cpta.com.cn/examfront/",
+      "level": "国家级",
+      "region": "全国",
+      "category": "官方报名系统",
+      "examTypes": [
+        "专业技术资格考试报名"
+      ],
+      "priority": 1,
+      "verificationStatus": "常用入口",
+      "notes": "通常从中国人事考试网进入，具体以当年考务通知为准。"
+    },
+    {
+      "name": "全国人事考试服务平台",
+      "url": "http://zp.cpta.com.cn/",
+      "level": "国家级/平台",
+      "region": "全国",
+      "category": "人事考试/招聘服务平台",
+      "examTypes": [
+        "部分事业单位招聘",
+        "报名入口"
+      ],
+      "priority": 2,
+      "verificationStatus": "搜索结果提及",
+      "notes": "部分事业单位招聘/报名可能使用，需以公告指定为准。"
+    },
+    {
+      "name": "中国公共招聘网",
+      "url": "https://job.mohrss.gov.cn/",
+      "level": "国家级",
+      "region": "全国",
+      "category": "公共就业招聘平台",
+      "examTypes": [
+        "公共就业招聘",
+        "部分国企/公共机构招聘线索"
+      ],
+      "priority": 3,
+      "verificationStatus": "已常用核验",
+      "notes": "非公考专门入口，可作就业招聘补充。"
+    },
+    {
+      "name": "中央和国家机关所属事业单位公开招聘服务平台",
+      "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/",
+      "level": "国家级",
+      "region": "全国",
+      "category": "中央事业单位招聘信息",
+      "examTypes": [
+        "中央和国家机关所属事业单位招聘"
+      ],
+      "priority": 1,
+      "verificationStatus": "需打开核验",
+      "notes": "中央和国家机关所属事业单位公开招聘服务入口，路径可能随官网改版变化。"
+    },
+    {
+      "name": "全国事业单位招聘网",
+      "url": "https://www.qgsydw.com/",
+      "level": "全国/平台",
+      "region": "全国",
+      "category": "事业单位招聘报名/公告平台",
+      "examTypes": [
+        "事业单位招聘公告",
+        "网上报名",
+        "准考证",
+        "成绩查询"
+      ],
+      "priority": 2,
+      "verificationStatus": "常用平台",
+      "notes": "许多地方或单位单独招聘会指定该平台，最终以官方公告为准。"
+    },
+    {
+      "name": "事业单位招考网报名系统",
+      "url": "https://www.sydwzk.cn/",
+      "level": "全国/平台",
+      "region": "全国",
+      "category": "事业单位招聘报名平台",
+      "examTypes": [
+        "事业单位招聘报名",
+        "报名确认",
+        "准考证打印"
+      ],
+      "priority": 2,
+      "verificationStatus": "常用平台",
+      "notes": "部分地方事业单位招聘公告指定使用，最终以公告为准。"
+    }
+  ],
+  "provinceEntries": [
+    {
+      "name": "北京市人事考评办公室/北京市人事考试网",
+      "url": "https://rsj.beijing.gov.cn/ywsite/bjpta/",
+      "level": "省级/地区级",
+      "region": "北京",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "北京主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "北京市人力资源和社会保障局",
+      "url": "https://rsj.beijing.gov.cn/",
+      "level": "省级/地区级",
+      "region": "北京",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "北京人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "北京组工网",
+      "url": "https://www.bjdj.gov.cn/",
+      "level": "省级/地区级",
+      "region": "北京",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "北京组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "天津市人事考试网上报名公共服务平台/天津人事考试",
+      "url": "http://rsks.hrss.tj.gov.cn/",
+      "level": "省级/地区级",
+      "region": "天津",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "天津主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "天津市人力资源和社会保障局",
+      "url": "https://hrss.tj.gov.cn/",
+      "level": "省级/地区级",
+      "region": "天津",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "天津人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "天津先锋网",
+      "url": "https://www.tjzzb.gov.cn/",
+      "level": "省级/地区级",
+      "region": "天津",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "天津组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "河北省人事考试网",
+      "url": "https://www.hebpta.com.cn/",
+      "level": "省级/地区级",
+      "region": "河北",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "河北主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "河北省人力资源和社会保障厅",
+      "url": "https://rst.hebei.gov.cn/",
+      "level": "省级/地区级",
+      "region": "河北",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "河北人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "河北党建网",
+      "url": "https://www.hebdj.gov.cn/",
+      "level": "省级/地区级",
+      "region": "河北",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "河北组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "山西人事考试专栏/山西省人社厅人事考试",
+      "url": "https://rst.shanxi.gov.cn/rsks/",
+      "level": "省级/地区级",
+      "region": "山西",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "山西主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "山西省人力资源和社会保障厅",
+      "url": "https://rst.shanxi.gov.cn/",
+      "level": "省级/地区级",
+      "region": "山西",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "山西人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "山西组工网",
+      "url": "https://www.sxdygbjy.gov.cn/",
+      "level": "省级/地区级",
+      "region": "山西",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "山西组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "内蒙古人事考试网",
+      "url": "http://www.impta.com.cn/",
+      "level": "省级/地区级",
+      "region": "内蒙古",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "内蒙古主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "内蒙古自治区人力资源和社会保障厅",
+      "url": "https://rst.nmg.gov.cn/",
+      "level": "省级/地区级",
+      "region": "内蒙古",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "内蒙古人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "北疆先锋网",
+      "url": "https://www.nmgdj.gov.cn/",
+      "level": "省级/地区级",
+      "region": "内蒙古",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "内蒙古组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "辽宁人事考试网",
+      "url": "https://www.lnrsks.com/",
+      "level": "省级/地区级",
+      "region": "辽宁",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "辽宁主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "辽宁省人力资源和社会保障厅",
+      "url": "https://rst.ln.gov.cn/",
+      "level": "省级/地区级",
+      "region": "辽宁",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "辽宁人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "辽宁党建网",
+      "url": "https://www.lndj.gov.cn/",
+      "level": "省级/地区级",
+      "region": "辽宁",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "辽宁组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "吉林省人事考试中心/吉林省公务员考试网",
+      "url": "http://www.jlzkb.com/",
+      "level": "省级/地区级",
+      "region": "吉林",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "吉林主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "吉林省人力资源和社会保障厅",
+      "url": "https://hrss.jl.gov.cn/",
+      "level": "省级/地区级",
+      "region": "吉林",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "吉林人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "吉林公务员考试网/组织系统入口",
+      "url": "http://www.jlzkb.com/",
+      "level": "省级/地区级",
+      "region": "吉林",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "吉林组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "黑龙江省人事考试网",
+      "url": "https://www.hljrsks.org.cn/",
+      "level": "省级/地区级",
+      "region": "黑龙江",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "黑龙江主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "黑龙江省人力资源和社会保障厅",
+      "url": "https://hrss.hlj.gov.cn/",
+      "level": "省级/地区级",
+      "region": "黑龙江",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "黑龙江人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "黑龙江省公务员考试网/龙江先锋网",
+      "url": "https://www.ljxfw.gov.cn/",
+      "level": "省级/地区级",
+      "region": "黑龙江",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "黑龙江组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "上海市职业能力考试院",
+      "url": "https://rsj.sh.gov.cn/spta.shtml",
+      "level": "省级/地区级",
+      "region": "上海",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "上海主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "上海市人力资源和社会保障局",
+      "url": "https://rsj.sh.gov.cn/",
+      "level": "省级/地区级",
+      "region": "上海",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "上海人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "上海基层党建网",
+      "url": "https://www.shjcdj.cn/",
+      "level": "省级/地区级",
+      "region": "上海",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "上海组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "江苏人事考试网",
+      "url": "https://jshrss.jiangsu.gov.cn/col/col57253/",
+      "level": "省级/地区级",
+      "region": "江苏",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "江苏主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "江苏省人力资源和社会保障厅",
+      "url": "https://jshrss.jiangsu.gov.cn/",
+      "level": "省级/地区级",
+      "region": "江苏",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "江苏人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "江苏先锋网",
+      "url": "https://www.jsxf.gov.cn/",
+      "level": "省级/地区级",
+      "region": "江苏",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "江苏组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "浙江人事考试网",
+      "url": "https://www.zjks.com/",
+      "level": "省级/地区级",
+      "region": "浙江",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "浙江主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "浙江省人力资源和社会保障厅",
+      "url": "https://rlsbt.zj.gov.cn/",
+      "level": "省级/地区级",
+      "region": "浙江",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "浙江人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "浙江组织工作网",
+      "url": "https://www.zjzzgz.gov.cn/",
+      "level": "省级/地区级",
+      "region": "浙江",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "浙江组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "安徽省人事考试网",
+      "url": "https://www.apta.gov.cn/",
+      "level": "省级/地区级",
+      "region": "安徽",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "安徽主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "安徽省人力资源和社会保障厅",
+      "url": "https://hrss.ah.gov.cn/",
+      "level": "省级/地区级",
+      "region": "安徽",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "安徽人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "安徽先锋网",
+      "url": "https://www.ahxf.gov.cn/",
+      "level": "省级/地区级",
+      "region": "安徽",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "安徽组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "福建省人事考试网",
+      "url": "https://www.fjpta.com/",
+      "level": "省级/地区级",
+      "region": "福建",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "福建主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "福建省人力资源和社会保障厅",
+      "url": "https://rst.fujian.gov.cn/",
+      "level": "省级/地区级",
+      "region": "福建",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "福建人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "福建省公务员考试录用网",
+      "url": "https://gwykl.fujian.gov.cn/",
+      "level": "省级/地区级",
+      "region": "福建",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "福建组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "江西人事考试网",
+      "url": "http://www.jxpta.com/",
+      "level": "省级/地区级",
+      "region": "江西",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "江西主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "江西省人力资源和社会保障厅",
+      "url": "https://rst.jiangxi.gov.cn/",
+      "level": "省级/地区级",
+      "region": "江西",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "江西人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "江西组工微讯/江西党建网",
+      "url": "https://www.jxzzb.gov.cn/",
+      "level": "省级/地区级",
+      "region": "江西",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "江西组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "山东人事考试信息网",
+      "url": "https://hrss.shandong.gov.cn/rsks/",
+      "level": "省级/地区级",
+      "region": "山东",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "山东主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "山东省人力资源和社会保障厅",
+      "url": "https://hrss.shandong.gov.cn/",
+      "level": "省级/地区级",
+      "region": "山东",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "山东人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "灯塔-党建在线",
+      "url": "https://www.dtdjzx.gov.cn/",
+      "level": "省级/地区级",
+      "region": "山东",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "山东组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "河南人事考试网",
+      "url": "http://www.hnrsks.com/",
+      "level": "省级/地区级",
+      "region": "河南",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "河南主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "河南省人力资源和社会保障厅",
+      "url": "https://hrss.henan.gov.cn/",
+      "level": "省级/地区级",
+      "region": "河南",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "河南人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "河南党员教育服务网",
+      "url": "https://www.hndyjyfw.gov.cn/",
+      "level": "省级/地区级",
+      "region": "河南",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "河南组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "湖北省人事考试网",
+      "url": "https://rst.hubei.gov.cn/hbrsksw/",
+      "level": "省级/地区级",
+      "region": "湖北",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "湖北主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "湖北省人力资源和社会保障厅",
+      "url": "https://rst.hubei.gov.cn/",
+      "level": "省级/地区级",
+      "region": "湖北",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "湖北人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "湖北党建/荆楚旗帜网",
+      "url": "https://www.hbjcqz.gov.cn/",
+      "level": "省级/地区级",
+      "region": "湖北",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "湖北组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "湖南人事考试网",
+      "url": "http://www.hunanpea.com/",
+      "level": "省级/地区级",
+      "region": "湖南",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "湖南主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "湖南省人力资源和社会保障厅",
+      "url": "https://rst.hunan.gov.cn/",
+      "level": "省级/地区级",
+      "region": "湖南",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "湖南人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "红星网",
+      "url": "https://www.hxw.gov.cn/",
+      "level": "省级/地区级",
+      "region": "湖南",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "湖南组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "广东人事考试网",
+      "url": "https://rsks.gd.gov.cn/",
+      "level": "省级/地区级",
+      "region": "广东",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "广东主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "广东省人力资源和社会保障厅",
+      "url": "https://hrss.gd.gov.cn/",
+      "level": "省级/地区级",
+      "region": "广东",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "广东人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "广东组织工作网",
+      "url": "https://www.gdzz.gov.cn/",
+      "level": "省级/地区级",
+      "region": "广东",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "广东组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "广西人事考试网",
+      "url": "http://www.gxpta.com.cn/",
+      "level": "省级/地区级",
+      "region": "广西",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "广西主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "广西壮族自治区人力资源和社会保障厅",
+      "url": "https://rst.gxzf.gov.cn/",
+      "level": "省级/地区级",
+      "region": "广西",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "广西人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "八桂先锋网",
+      "url": "https://www.bgxf.gov.cn/",
+      "level": "省级/地区级",
+      "region": "广西",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "广西组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "海南省考试录用公务员网上报名系统/海南省人力资源开发局",
+      "url": "https://zhaopin.hainan.gov.cn/",
+      "level": "省级/地区级",
+      "region": "海南",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "海南主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "海南省人力资源和社会保障厅",
+      "url": "https://hrss.hainan.gov.cn/",
+      "level": "省级/地区级",
+      "region": "海南",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "海南人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "南海先锋网",
+      "url": "https://www.nanhaixf.gov.cn/",
+      "level": "省级/地区级",
+      "region": "海南",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "海南组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "重庆市人社局人事考试专栏",
+      "url": "https://rlsbj.cq.gov.cn/ywzl/rsks/",
+      "level": "省级/地区级",
+      "region": "重庆",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "重庆主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "重庆市人力资源和社会保障局",
+      "url": "https://rlsbj.cq.gov.cn/",
+      "level": "省级/地区级",
+      "region": "重庆",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "重庆人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "七一网",
+      "url": "https://www.12371.gov.cn/",
+      "level": "省级/地区级",
+      "region": "重庆",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "重庆组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "四川省人事考试中心",
+      "url": "https://www.scpta.com.cn/",
+      "level": "省级/地区级",
+      "region": "四川",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "四川主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "四川省人力资源和社会保障厅",
+      "url": "https://rst.sc.gov.cn/",
+      "level": "省级/地区级",
+      "region": "四川",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "四川人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "四川组工网",
+      "url": "https://www.gcdr.gov.cn/",
+      "level": "省级/地区级",
+      "region": "四川",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "四川组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "贵州人事考试信息网",
+      "url": "https://www.gzrsks.com.cn/",
+      "level": "省级/地区级",
+      "region": "贵州",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "贵州主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "贵州省人力资源和社会保障厅",
+      "url": "https://rst.guizhou.gov.cn/",
+      "level": "省级/地区级",
+      "region": "贵州",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "贵州人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "贵州党建云",
+      "url": "https://www.gzzzb.gov.cn/",
+      "level": "省级/地区级",
+      "region": "贵州",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "贵州组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "云南人事考试网",
+      "url": "https://hrss.yn.gov.cn/ynrsksw/",
+      "level": "省级/地区级",
+      "region": "云南",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "云南主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "云南省人力资源和社会保障厅",
+      "url": "https://hrss.yn.gov.cn/",
+      "level": "省级/地区级",
+      "region": "云南",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "云南人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "云岭先锋网",
+      "url": "https://ylxf.1237125.cn/",
+      "level": "省级/地区级",
+      "region": "云南",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "云南组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "西藏自治区人力资源和社会保障厅",
+      "url": "http://hrss.xizang.gov.cn/",
+      "level": "省级/地区级",
+      "region": "西藏",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "西藏主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "西藏自治区人力资源和社会保障厅",
+      "url": "http://hrss.xizang.gov.cn/",
+      "level": "省级/地区级",
+      "region": "西藏",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "西藏人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "西藏党员教育网/组织系统入口",
+      "url": "https://www.xzdj.gov.cn/",
+      "level": "省级/地区级",
+      "region": "西藏",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "西藏组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "陕西人事考试网",
+      "url": "http://www.sxrsks.cn/",
+      "level": "省级/地区级",
+      "region": "陕西",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "陕西主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "陕西省人力资源和社会保障厅",
+      "url": "https://rst.shaanxi.gov.cn/",
+      "level": "省级/地区级",
+      "region": "陕西",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "陕西人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "陕西党建网",
+      "url": "https://www.sx-dj.gov.cn/",
+      "level": "省级/地区级",
+      "region": "陕西",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "陕西组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "甘肃人事考试网",
+      "url": "https://ks.rst.gansu.gov.cn/",
+      "level": "省级/地区级",
+      "region": "甘肃",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "甘肃主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "甘肃省人力资源和社会保障厅",
+      "url": "https://rst.gansu.gov.cn/",
+      "level": "省级/地区级",
+      "region": "甘肃",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "甘肃人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "甘肃组工网",
+      "url": "https://www.gszg.gov.cn/",
+      "level": "省级/地区级",
+      "region": "甘肃",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "甘肃组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "青海省人事考试信息网",
+      "url": "http://www.qhpta.com/",
+      "level": "省级/地区级",
+      "region": "青海",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "青海主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "青海省人力资源和社会保障厅",
+      "url": "http://rst.qinghai.gov.cn/",
+      "level": "省级/地区级",
+      "region": "青海",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "青海人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "青海党建网",
+      "url": "https://www.qhsdj.gov.cn/",
+      "level": "省级/地区级",
+      "region": "青海",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "青海组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "宁夏人事考试中心",
+      "url": "https://www.nxpta.com/",
+      "level": "省级/地区级",
+      "region": "宁夏",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "宁夏主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "宁夏回族自治区人力资源和社会保障厅",
+      "url": "https://hrss.nx.gov.cn/",
+      "level": "省级/地区级",
+      "region": "宁夏",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "宁夏人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "宁夏党建网",
+      "url": "https://www.nxdjw.gov.cn/",
+      "level": "省级/地区级",
+      "region": "宁夏",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "宁夏组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "新疆人事考试中心",
+      "url": "https://www.xjrsks.com.cn/",
+      "level": "省级/地区级",
+      "region": "新疆",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "新疆主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "新疆维吾尔自治区人力资源和社会保障厅",
+      "url": "https://rst.xinjiang.gov.cn/",
+      "level": "省级/地区级",
+      "region": "新疆",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "新疆人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "新疆党建网",
+      "url": "https://www.xjkunlun.gov.cn/",
+      "level": "省级/地区级",
+      "region": "新疆",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "新疆组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    },
+    {
+      "name": "兵团考试信息网",
+      "url": "http://btpta.xjbt.gov.cn/",
+      "level": "省级/地区级",
+      "region": "新疆生产建设兵团",
+      "category": "人事考试网/报名考试入口",
+      "examTypes": [
+        "公务员省考",
+        "事业单位招聘",
+        "三支一扶",
+        "人事考试",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "verificationStatus": "需定期复核",
+      "notes": "新疆生产建设兵团主要人事考试/招考报名入口。"
+    },
+    {
+      "name": "新疆生产建设兵团人力资源和社会保障局",
+      "url": "http://rsj.xjbt.gov.cn/",
+      "level": "省级/地区级",
+      "region": "新疆生产建设兵团",
+      "category": "人力资源和社会保障厅/局",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "人社公告",
+        "政策信息"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "新疆生产建设兵团人社部门官网，事业单位招聘和三支一扶等公告常见来源。"
+    },
+    {
+      "name": "兵团党建网",
+      "url": "http://www.xjbt.gov.cn/",
+      "level": "省级/地区级",
+      "region": "新疆生产建设兵团",
+      "category": "组织部/党建网/公务员主管渠道",
+      "examTypes": [
+        "公务员省考",
+        "选调生",
+        "遴选选调",
+        "组织系统公告"
+      ],
+      "priority": 2,
+      "verificationStatus": "需定期复核",
+      "notes": "新疆生产建设兵团组织系统相关入口，省考/选调生公告可能在此发布或转载。"
+    }
+  ]
+}
