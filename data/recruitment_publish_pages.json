@@ -1,0 +1,1051 @@
+{
+  "generatedAt": "2026-05-31",
+  "description": "公考/事业单位/三支一扶等招考信息发布页网址清单。主要收录官方发布页、官方报名服务平台和少量待进一步定位的政府门户入口，不包含个人筛岗信息。",
+  "usage": "优先查看 priority=1 的官方发布页；机构或聚合站只作线索，最终以官方公告、岗位表和报名系统为准。",
+  "fields": {
+    "name": "发布页名称",
+    "url": "发布页网址",
+    "level": "国家级/省级/市级",
+    "region": "覆盖地区",
+    "publisherType": "发布主体类型",
+    "examTypes": "常见发布的信息类型",
+    "priority": "推荐优先级，1最高",
+    "notes": "备注"
+  },
+  "pages": [
+    {
+      "name": "国家公务员局",
+      "url": "http://www.scs.gov.cn/",
+      "level": "国家级",
+      "region": "全国",
+      "publisherType": "公务员主管部门",
+      "examTypes": [
+        "国家公务员",
+        "中央机关遴选选调",
+        "公务员政策"
+      ],
+      "priority": 1,
+      "notes": "国考、中央机关公开遴选/选调等权威入口。"
+    },
+    {
+      "name": "国家公务员局考试录用专题/报名系统",
+      "url": "http://bm.scs.gov.cn/",
+      "level": "国家级",
+      "region": "全国",
+      "publisherType": "官方报名/专题系统",
+      "examTypes": [
+        "国家公务员",
+        "国考职位表",
+        "国考报名",
+        "补充录用"
+      ],
+      "priority": 1,
+      "notes": "具体年度专题通常在该域名下，例如 /kl2026。"
+    },
+    {
+      "name": "中国人事考试网",
+      "url": "https://www.cpta.com.cn/",
+      "level": "国家级",
+      "region": "全国",
+      "publisherType": "人事考试官方平台",
+      "examTypes": [
+        "专业技术资格考试",
+        "注册城乡规划师",
+        "报名通知",
+        "成绩查询"
+      ],
+      "priority": 2,
+      "notes": "注册城乡规划师等职业资格考试的一手考务入口。"
+    },
+    {
+      "name": "人力资源和社会保障部",
+      "url": "https://www.mohrss.gov.cn/",
+      "level": "国家级",
+      "region": "全国",
+      "publisherType": "国家部委",
+      "examTypes": [
+        "三支一扶政策",
+        "事业单位人事管理",
+        "就业政策"
+      ],
+      "priority": 3,
+      "notes": "政策类信息为主，具体招聘公告一般在地方人社/人事考试网。"
+    },
+    {
+      "name": "广东组织工作网 - 通知公告",
+      "url": "https://www.gdzz.gov.cn/tzgg/",
+      "level": "省级",
+      "region": "广东",
+      "publisherType": "省委组织部系统",
+      "examTypes": [
+        "广东省考",
+        "选调生",
+        "事业单位集中招聘"
+      ],
+      "priority": 1,
+      "notes": "广东省考、选调生、事业单位集中招聘等重要公告常见发布页。"
+    },
+    {
+      "name": "广东人事考试网",
+      "url": "https://rsks.gd.gov.cn/",
+      "level": "省级",
+      "region": "广东",
+      "publisherType": "省级人事考试网",
+      "examTypes": [
+        "广东省考",
+        "事业单位集中招聘",
+        "专业技术资格考试",
+        "三支一扶"
+      ],
+      "priority": 1,
+      "notes": "广东人事考试、报名、准考证、成绩等核心入口。"
+    },
+    {
+      "name": "广东省人力资源和社会保障厅",
+      "url": "https://hrss.gd.gov.cn/",
+      "level": "省级",
+      "region": "广东",
+      "publisherType": "省级人社厅",
+      "examTypes": [
+        "事业单位招聘",
+        "三支一扶",
+        "公示公告",
+        "就业服务"
+      ],
+      "priority": 1,
+      "notes": "广东人社系统招聘公告、三支一扶、事业单位等信息入口。"
+    },
+    {
+      "name": "广东省人社厅 - 事业单位公开招聘栏目",
+      "url": "https://hrss.gd.gov.cn/zwgk/sydwzp/",
+      "level": "省级",
+      "region": "广东",
+      "publisherType": "省级人社厅招聘栏目",
+      "examTypes": [
+        "事业单位招聘",
+        "岗位表",
+        "拟聘公示"
+      ],
+      "priority": 1,
+      "notes": "广东事业单位公开招聘公告发布栏目。"
+    },
+    {
+      "name": "广东省人民政府门户网站",
+      "url": "https://www.gd.gov.cn/",
+      "level": "省级",
+      "region": "广东",
+      "publisherType": "省政府门户",
+      "examTypes": [
+        "政府公告",
+        "重点领域信息公开",
+        "就业招聘转载"
+      ],
+      "priority": 3,
+      "notes": "省政府门户会转发或发布部分重点招考/就业信息。"
+    },
+    {
+      "name": "广州市人社局 - 事业单位招聘公告",
+      "url": "https://rsj.gz.gov.cn/ywzt/rszdgg/sydwgkzp/sydwzpgg/",
+      "level": "市级",
+      "region": "广东-广州",
+      "publisherType": "市级人社局招聘栏目",
+      "examTypes": [
+        "广州事业单位招聘",
+        "事业编制招聘",
+        "拟聘公示"
+      ],
+      "priority": 1,
+      "notes": "广州市事业单位招聘公告常用发布页。"
+    },
+    {
+      "name": "广州市政府 - 事业单位招聘栏目",
+      "url": "https://www.gz.gov.cn/zwgk/rsgz/sydwzp/",
+      "level": "市级",
+      "region": "广东-广州",
+      "publisherType": "市政府门户招聘栏目",
+      "examTypes": [
+        "广州事业单位招聘",
+        "市属单位招聘"
+      ],
+      "priority": 1,
+      "notes": "广州市政府门户的人事招聘栏目。"
+    },
+    {
+      "name": "广州市规划和自然资源局",
+      "url": "https://ghzyj.gz.gov.cn/",
+      "level": "市级",
+      "region": "广东-广州",
+      "publisherType": "市级主管部门",
+      "examTypes": [
+        "规划自然资源类事业单位招聘",
+        "资格复审",
+        "面试公告"
+      ],
+      "priority": 2,
+      "notes": "自然资源、规划、地理信息等相关岗位可关注。"
+    },
+    {
+      "name": "深圳市人社局 - 公职人员招考",
+      "url": "https://hrss.sz.gov.cn/gzryzk/index.html",
+      "level": "市级",
+      "region": "广东-深圳",
+      "publisherType": "市级人社局招考栏目",
+      "examTypes": [
+        "深圳事业单位招聘",
+        "机关事业单位招考",
+        "公职人员招考"
+      ],
+      "priority": 1,
+      "notes": "深圳公职人员、事业单位招聘官方发布页。"
+    },
+    {
+      "name": "深圳市规划和自然资源局",
+      "url": "https://pnr.sz.gov.cn/",
+      "level": "市级",
+      "region": "广东-深圳",
+      "publisherType": "市级主管部门",
+      "examTypes": [
+        "规划国土类招聘",
+        "资格复审",
+        "面试公告"
+      ],
+      "priority": 2,
+      "notes": "规划国土、自然资源方向岗位可关注。"
+    },
+    {
+      "name": "东莞市人社局 - 公开招聘",
+      "url": "https://dghrss.dg.gov.cn/xwzx/gsgg/gkzp/",
+      "level": "市级",
+      "region": "广东-东莞",
+      "publisherType": "市级人社局招聘栏目",
+      "examTypes": [
+        "东莞事业单位招聘",
+        "编外招聘",
+        "成绩公告",
+        "拟聘公示"
+      ],
+      "priority": 1,
+      "notes": "东莞公开招聘综合栏目。"
+    },
+    {
+      "name": "东莞市人社局 - 编制内人员招聘",
+      "url": "https://dghrss.dg.gov.cn/xwzx/gsgg/gkzp/zpgg/",
+      "level": "市级",
+      "region": "广东-东莞",
+      "publisherType": "市级人社局招聘栏目",
+      "examTypes": [
+        "东莞事业单位招聘",
+        "编制内人员招聘"
+      ],
+      "priority": 1,
+      "notes": "更聚焦东莞事业编/编制内招聘公告。"
+    },
+    {
+      "name": "中山市人社局 - 事业单位公开招聘",
+      "url": "https://hrss.zs.gov.cn/xxgk/rsxx/sydwgkzp/",
+      "level": "市级",
+      "region": "广东-中山",
+      "publisherType": "市级人社局招聘栏目",
+      "examTypes": [
+        "中山事业单位招聘",
+        "岗位表",
+        "拟聘公示"
+      ],
+      "priority": 1,
+      "notes": "中山市事业单位公开招聘官方栏目。"
+    },
+    {
+      "name": "中山市人社局 - 公告公示",
+      "url": "https://hrss.zs.gov.cn/tzgg/gggs/",
+      "level": "市级",
+      "region": "广东-中山",
+      "publisherType": "市级人社局公告栏目",
+      "examTypes": [
+        "招聘公告",
+        "人事公示"
+      ],
+      "priority": 2,
+      "notes": "中山招聘公告、公示信息补充入口。"
+    },
+    {
+      "name": "江门市人社局 - 事业单位公开招聘/人事考试",
+      "url": "https://www.jiangmen.gov.cn/bmpd/jmsrlzyhshbzj/sylm/rsks/syks/",
+      "level": "市级",
+      "region": "广东-江门",
+      "publisherType": "市级人社局考试栏目",
+      "examTypes": [
+        "江门事业单位招聘",
+        "人事考试"
+      ],
+      "priority": 2,
+      "notes": "江门事业单位公开招聘和人事考试信息。"
+    },
+    {
+      "name": "汕尾市人社局 - 人事考试专题",
+      "url": "https://www.shanwei.gov.cn/swrsj/ztzl/rsks/",
+      "level": "市级",
+      "region": "广东-汕尾",
+      "publisherType": "市级人社局考试栏目",
+      "examTypes": [
+        "汕尾人事考试",
+        "事业单位招聘"
+      ],
+      "priority": 2,
+      "notes": "汕尾人事考试专题入口。"
+    },
+    {
+      "name": "汕尾市人社局 - 事业单位招聘",
+      "url": "https://www.shanwei.gov.cn/swrsj/ztzl/rsks/sydwzp/",
+      "level": "市级",
+      "region": "广东-汕尾",
+      "publisherType": "市级人社局招聘栏目",
+      "examTypes": [
+        "汕尾事业单位招聘"
+      ],
+      "priority": 2,
+      "notes": "汕尾事业单位招聘官方栏目。"
+    },
+    {
+      "name": "湖北省人事考试网",
+      "url": "https://rst.hubei.gov.cn/hbrsksw/",
+      "level": "省级",
+      "region": "湖北",
+      "publisherType": "省级人事考试网",
+      "examTypes": [
+        "湖北省考",
+        "湖北事业单位统招",
+        "三支一扶",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "notes": "湖北公务员、事业单位、三支一扶等考试核心入口。"
+    },
+    {
+      "name": "湖北省人力资源和社会保障厅",
+      "url": "https://rst.hubei.gov.cn/",
+      "level": "省级",
+      "region": "湖北",
+      "publisherType": "省级人社厅",
+      "examTypes": [
+        "湖北事业单位",
+        "湖北三支一扶",
+        "省直招聘",
+        "人社公告"
+      ],
+      "priority": 1,
+      "notes": "湖北人社系统公告总入口。"
+    },
+    {
+      "name": "湖北省人事考试网 - 事业单位招聘考试专栏",
+      "url": "https://rst.hubei.gov.cn/hbrsksw/zlplks/hbssydwzpks/",
+      "level": "省级",
+      "region": "湖北",
+      "publisherType": "省级人事考试专栏",
+      "examTypes": [
+        "湖北事业单位招聘考试",
+        "公告",
+        "报名入口",
+        "成绩查询"
+      ],
+      "priority": 1,
+      "notes": "湖北事业单位统招和各地事业单位招聘重要入口。"
+    },
+    {
+      "name": "湖北省人社厅 - 省直事业单位公开招聘专题",
+      "url": "http://rst.hubei.gov.cn/bmdt/ztzl/ywzl/hbsszsydwgkzp/",
+      "level": "省级",
+      "region": "湖北",
+      "publisherType": "省级人社厅专题",
+      "examTypes": [
+        "湖北省直事业单位公开招聘",
+        "公告",
+        "岗位表"
+      ],
+      "priority": 1,
+      "notes": "湖北省直事业单位招聘专题。"
+    },
+    {
+      "name": "湖北省自然资源厅 - 招考录用栏目",
+      "url": "https://zrzyt.hubei.gov.cn/fbjd/xxgkml/zkly/",
+      "level": "省级",
+      "region": "湖北",
+      "publisherType": "省级主管部门招录栏目",
+      "examTypes": [
+        "自然资源系统招聘",
+        "空间规划",
+        "城乡规划相关事业单位招聘"
+      ],
+      "priority": 2,
+      "notes": "自然资源、空间规划、测绘等专业方向可关注。"
+    },
+    {
+      "name": "武汉市政府 - 人事信息/公务员招录栏目",
+      "url": "https://www.wuhan.gov.cn/zwgk/xxgk/rsxx/gwyzl/",
+      "level": "市级",
+      "region": "湖北-武汉",
+      "publisherType": "市政府门户人事栏目",
+      "examTypes": [
+        "武汉事业单位",
+        "武汉公务员招录信息"
+      ],
+      "priority": 1,
+      "notes": "武汉事业单位和公务员招录公告常见入口。"
+    },
+    {
+      "name": "武汉市人事考试院 - 网上报名入口",
+      "url": "https://www.whptc.org/ncms/wsbm.shtml",
+      "level": "市级",
+      "region": "湖北-武汉",
+      "publisherType": "市级人事考试报名系统",
+      "examTypes": [
+        "武汉事业单位报名",
+        "人事考试报名"
+      ],
+      "priority": 1,
+      "notes": "武汉事业单位招聘报名入口。"
+    },
+    {
+      "name": "宜昌市人社局 - 事业单位公开招聘专栏",
+      "url": "http://rsj.yichang.gov.cn/list-63350-1.html",
+      "level": "市级",
+      "region": "湖北-宜昌",
+      "publisherType": "市级人社局招聘栏目",
+      "examTypes": [
+        "宜昌事业单位招聘公告",
+        "岗位表",
+        "报考指南"
+      ],
+      "priority": 1,
+      "notes": "宜昌事业单位招聘官方发布栏目。"
+    },
+    {
+      "name": "宜昌人事考试服务平台",
+      "url": "https://ycrsks.sanxiacloud.com",
+      "level": "市级",
+      "region": "湖北-宜昌",
+      "publisherType": "市级报名/考试服务平台",
+      "examTypes": [
+        "宜昌事业单位报名",
+        "查询",
+        "缴费",
+        "准考证打印"
+      ],
+      "priority": 1,
+      "notes": "宜昌事业单位招聘报名、缴费、准考证等服务平台。"
+    },
+    {
+      "name": "荆门市人社局",
+      "url": "http://rsj.jingmen.gov.cn",
+      "level": "市级",
+      "region": "湖北-荆门",
+      "publisherType": "市级人社局",
+      "examTypes": [
+        "荆门事业单位招聘",
+        "人社公告",
+        "招聘信息"
+      ],
+      "priority": 1,
+      "notes": "荆门招聘信息官方发布平台之一。"
+    },
+    {
+      "name": "荆门人事考试网",
+      "url": "https://www.jmrsks.cn",
+      "level": "市级",
+      "region": "湖北-荆门",
+      "publisherType": "市级人事考试网",
+      "examTypes": [
+        "荆门事业单位报名",
+        "招聘公告",
+        "考试信息"
+      ],
+      "priority": 1,
+      "notes": "荆门人事考试、事业单位报名等官方入口。"
+    },
+    {
+      "name": "黄石市人社局 - 公告公示栏目",
+      "url": "https://rsj.huangshi.gov.cn/xxgk/fdzdgknr/gggs/",
+      "level": "市级",
+      "region": "湖北-黄石",
+      "publisherType": "市级人社局公告栏目",
+      "examTypes": [
+        "黄石事业单位招聘公告",
+        "公示公告"
+      ],
+      "priority": 1,
+      "notes": "黄石事业单位招聘公告官方发布页。"
+    },
+    {
+      "name": "黄石人事考试专栏",
+      "url": "http://rsj.huangshi.gov.cn/rsksy/",
+      "level": "市级",
+      "region": "湖北-黄石",
+      "publisherType": "市级人事考试栏目",
+      "examTypes": [
+        "黄石人事考试",
+        "事业单位招聘考试"
+      ],
+      "priority": 1,
+      "notes": "黄石人事考试相关信息入口。"
+    },
+    {
+      "name": "潜江市人事考试网",
+      "url": "http://www.qjrsks.cn/",
+      "level": "市级",
+      "region": "湖北-潜江",
+      "publisherType": "市级人事考试网",
+      "examTypes": [
+        "潜江事业单位招聘",
+        "报名入口",
+        "考试信息"
+      ],
+      "priority": 2,
+      "notes": "潜江市事业单位招聘和人事考试入口。"
+    },
+    {
+      "name": "广东省人事考试局 - 系统快速通道",
+      "url": "https://rsks.gd.gov.cn/xtkstd/",
+      "level": "省级",
+      "region": "广东",
+      "publisherType": "省级人事考试系统入口",
+      "examTypes": [
+        "事业单位招聘系统",
+        "公务员考试系统",
+        "报名系统入口"
+      ],
+      "priority": 2,
+      "notes": "广东人事考试网系统快速通道，含事业单位公开招聘系统入口。"
+    },
+    {
+      "name": "全国事业单位招聘网",
+      "url": "https://www.qgsydw.com/",
+      "level": "全国/平台",
+      "region": "全国",
+      "publisherType": "事业单位招聘报名/公告平台",
+      "examTypes": [
+        "事业单位招聘公告",
+        "网上报名",
+        "准考证",
+        "成绩查询"
+      ],
+      "priority": 2,
+      "notes": "不少广东地区事业单位单独招聘会指定该平台报名；最终以公告发布单位为准。"
+    },
+    {
+      "name": "事业单位招考网报名系统",
+      "url": "https://www.sydwzk.cn/",
+      "level": "全国/平台",
+      "region": "全国",
+      "publisherType": "事业单位招聘报名平台",
+      "examTypes": [
+        "事业单位招聘报名",
+        "报名确认",
+        "准考证打印"
+      ],
+      "priority": 2,
+      "notes": "部分广东事业单位招聘公告指定使用该平台报名。"
+    },
+    {
+      "name": "韶关市人力资源和社会保障局",
+      "url": "https://rsj.sg.gov.cn/",
+      "level": "市级",
+      "region": "广东-韶关",
+      "publisherType": "市级人社局",
+      "examTypes": [
+        "韶关事业单位招聘",
+        "人事人才",
+        "公告公示"
+      ],
+      "priority": 2,
+      "notes": "韶关市人社局官网。"
+    },
+    {
+      "name": "韶关市人社局 - 人事人才栏目",
+      "url": "https://rsj.sg.gov.cn/ywzt/rsrc/",
+      "level": "市级",
+      "region": "广东-韶关",
+      "publisherType": "市级人社局人事人才栏目",
+      "examTypes": [
+        "韶关事业单位招聘",
+        "急需紧缺人才",
+        "教师招聘"
+      ],
+      "priority": 1,
+      "notes": "搜索结果显示韶关事业单位招聘信息集中在该栏目下。"
+    },
+    {
+      "name": "汕头市政府 - 招考录用栏目",
+      "url": "https://www.shantou.gov.cn/cnst/zwgk/jcxxgk/rsxx/zkly/",
+      "level": "市级",
+      "region": "广东-汕头",
+      "publisherType": "市政府门户招考栏目",
+      "examTypes": [
+        "汕头招考录用",
+        "事业单位招聘",
+        "公务员招录相关"
+      ],
+      "priority": 2,
+      "notes": "汕头市政府人事信息中的招考录用栏目。"
+    },
+    {
+      "name": "河源市人力资源和社会保障局",
+      "url": "https://www.heyuan.gov.cn/bmjy/hysrlzyhshbzj/mindex.html",
+      "level": "市级",
+      "region": "广东-河源",
+      "publisherType": "市级人社局",
+      "examTypes": [
+        "河源事业单位招聘",
+        "公告公示",
+        "人社信息"
+      ],
+      "priority": 2,
+      "notes": "河源市人社局官方部门页面。"
+    },
+    {
+      "name": "河源市人社局 - 公告公示",
+      "url": "https://www.heyuan.gov.cn/bmjy/hysrlzyhshbzj/gggs/",
+      "level": "市级",
+      "region": "广东-河源",
+      "publisherType": "市级人社局公告栏目",
+      "examTypes": [
+        "河源事业单位招聘",
+        "网格员招聘",
+        "笔试成绩公告"
+      ],
+      "priority": 2,
+      "notes": "河源人社公告公示栏目，常见招聘/考试相关公告。"
+    },
+    {
+      "name": "梅州市人社局 - 事业单位人事管理通知公告",
+      "url": "https://www.meizhou.gov.cn/zwgk/zfjg/srlzyhshbzj/ztzl/sydwrsgl/tzgg/mindex.html",
+      "level": "市级",
+      "region": "广东-梅州",
+      "publisherType": "市级人社局事业单位人事栏目",
+      "examTypes": [
+        "梅州事业单位招聘",
+        "通知公告",
+        "拟聘公示"
+      ],
+      "priority": 2,
+      "notes": "梅州市事业单位人事管理专题中的通知公告栏目。"
+    },
+    {
+      "name": "梅州市人社局 - 事业单位人事管理考试成绩",
+      "url": "https://www.meizhou.gov.cn/zwgk/zfjg/srlzyhshbzj/ztzl/sydwrsgl/kscj/",
+      "level": "市级",
+      "region": "广东-梅州",
+      "publisherType": "市级人社局考试栏目",
+      "examTypes": [
+        "事业单位考试成绩",
+        "招聘后续公告"
+      ],
+      "priority": 3,
+      "notes": "考试成绩和后续环节公告入口。"
+    },
+    {
+      "name": "清远市人力资源和社会保障局",
+      "url": "https://www.gdqy.gov.cn/channel/srlzyhshbz/index.html",
+      "level": "市级",
+      "region": "广东-清远",
+      "publisherType": "市级人社局",
+      "examTypes": [
+        "清远事业单位招聘",
+        "人才招聘",
+        "公示公告"
+      ],
+      "priority": 2,
+      "notes": "清远市人社局官方频道。"
+    },
+    {
+      "name": "清远市人社局 - 通知公告",
+      "url": "https://www.gdqy.gov.cn/xxgk/zzjg/zfjg/srlzyhshbz/zhzx/tzgg/",
+      "level": "市级",
+      "region": "广东-清远",
+      "publisherType": "市级人社局公告栏目",
+      "examTypes": [
+        "清远事业单位招聘",
+        "高层次人才招聘",
+        "拟聘公示"
+      ],
+      "priority": 1,
+      "notes": "清远人社局通知公告栏目，搜索结果多条招聘公告位于此路径。"
+    },
+    {
+      "name": "潮州市人社局 - 通知公告",
+      "url": "https://www.chaozhou.gov.cn/zwgk/szfgz/srlzy/tzgg/",
+      "level": "市级",
+      "region": "广东-潮州",
+      "publisherType": "市级人社局公告栏目",
+      "examTypes": [
+        "潮州事业单位招聘",
+        "面试公告",
+        "招聘公示"
+      ],
+      "priority": 2,
+      "notes": "潮州市人社局通知公告栏目。"
+    },
+    {
+      "name": "揭阳市人力资源和社会保障局",
+      "url": "https://www.jieyang.gov.cn/rsj/",
+      "level": "市级",
+      "region": "广东-揭阳",
+      "publisherType": "市级人社局",
+      "examTypes": [
+        "揭阳事业单位招聘",
+        "考试信息",
+        "通知公告"
+      ],
+      "priority": 2,
+      "notes": "揭阳市人社局官网，含考试信息、通知公告等栏目。"
+    },
+    {
+      "name": "云浮市人力资源社会保障网",
+      "url": "https://www.yunfu.gov.cn/rsj/",
+      "level": "市级",
+      "region": "广东-云浮",
+      "publisherType": "市级人社局",
+      "examTypes": [
+        "云浮事业单位招聘",
+        "考试报名",
+        "成绩查询"
+      ],
+      "priority": 2,
+      "notes": "云浮市人社局官网。"
+    },
+    {
+      "name": "云浮市人社局 - 考试报名及成绩查询",
+      "url": "https://www.yunfu.gov.cn/rsj/zwfw/ksbm/",
+      "level": "市级",
+      "region": "广东-云浮",
+      "publisherType": "市级人社局考试栏目",
+      "examTypes": [
+        "事业单位招聘公告",
+        "考试报名",
+        "成绩查询",
+        "资格复审"
+      ],
+      "priority": 1,
+      "notes": "云浮考试报名及成绩查询栏目，含事业单位集中招聘相关通知。"
+    },
+    {
+      "name": "湛江市政府 - 人事信息/公开招录",
+      "url": "https://www.zhanjiang.gov.cn/zwgk/rsxx/gkzl/",
+      "level": "市级",
+      "region": "广东-湛江",
+      "publisherType": "市政府门户人事栏目",
+      "examTypes": [
+        "湛江事业单位招聘",
+        "公开招录",
+        "岗位表"
+      ],
+      "priority": 2,
+      "notes": "湛江市政府人事信息公开招录栏目。"
+    },
+    {
+      "name": "湛江市人社局 - 通知公告",
+      "url": "https://www.zhanjiang.gov.cn/zjsfw/bmdh/rsj/zwgk/tzgg/",
+      "level": "市级",
+      "region": "广东-湛江",
+      "publisherType": "市级人社局公告栏目",
+      "examTypes": [
+        "湛江事业单位招聘",
+        "人才招聘",
+        "人社公告"
+      ],
+      "priority": 2,
+      "notes": "湛江市人社局通知公告栏目。"
+    },
+    {
+      "name": "佛山市人民政府门户网站",
+      "url": "https://www.foshan.gov.cn/",
+      "level": "市级",
+      "region": "广东-佛山",
+      "publisherType": "市政府门户",
+      "examTypes": [
+        "佛山事业单位招聘",
+        "政府公告",
+        "部门招聘"
+      ],
+      "priority": 3,
+      "notes": "佛山招聘信息可能分散在市政府、教育局、区县政府及部门网站。"
+    },
+    {
+      "name": "佛山市教育局",
+      "url": "https://edu.foshan.gov.cn/",
+      "level": "市级",
+      "region": "广东-佛山",
+      "publisherType": "市级教育主管部门",
+      "examTypes": [
+        "教师招聘",
+        "学校事业单位招聘"
+      ],
+      "priority": 2,
+      "notes": "佛山教师招聘、教育系统招聘可重点关注。"
+    },
+    {
+      "name": "珠海市人社局/政府相关入口",
+      "url": "https://www.zhuhai.gov.cn/",
+      "level": "市级",
+      "region": "广东-珠海",
+      "publisherType": "市政府门户",
+      "examTypes": [
+        "珠海事业单位招聘",
+        "人社公告",
+        "部门招聘"
+      ],
+      "priority": 3,
+      "notes": "搜索未直接定位清晰招聘栏目，可从珠海政府门户/人社局入口继续检索。"
+    },
+    {
+      "name": "襄阳市人社局 - 招录招聘栏目",
+      "url": "http://rsj.xiangyang.gov.cn/xwzx/zlzp/",
+      "level": "市级",
+      "region": "湖北-襄阳",
+      "publisherType": "市级人社局招聘栏目",
+      "examTypes": [
+        "襄阳事业单位招聘",
+        "招录招聘",
+        "公告公示"
+      ],
+      "priority": 1,
+      "notes": "搜索结果显示襄阳市事业单位招聘官方发布平台之一。"
+    },
+    {
+      "name": "鄂州市人民政府 - 招考招录栏目",
+      "url": "https://www.ezhou.gov.cn/gk/xxgkml/qt/rsxx/zkzl1/",
+      "level": "市级",
+      "region": "湖北-鄂州",
+      "publisherType": "市政府门户招录栏目",
+      "examTypes": [
+        "鄂州事业单位招聘",
+        "招考招录"
+      ],
+      "priority": 1,
+      "notes": "鄂州市事业单位招聘公告官方发布栏目。"
+    },
+    {
+      "name": "鄂州市人社局 - 通知公告",
+      "url": "https://rsj.ezhou.gov.cn/tzgg/",
+      "level": "市级",
+      "region": "湖北-鄂州",
+      "publisherType": "市级人社局公告栏目",
+      "examTypes": [
+        "鄂州事业单位招聘",
+        "人事考试公告"
+      ],
+      "priority": 1,
+      "notes": "鄂州人社局通知公告栏目。"
+    },
+    {
+      "name": "黄冈市人社局 - 公开招聘专栏",
+      "url": "https://rsj.hg.gov.cn/ztzl/sydwzpzl/gkzp/index.html",
+      "level": "市级",
+      "region": "湖北-黄冈",
+      "publisherType": "市级人社局招聘专栏",
+      "examTypes": [
+        "黄冈事业单位招聘",
+        "公开招聘",
+        "岗位表"
+      ],
+      "priority": 1,
+      "notes": "黄冈事业单位招聘官方专栏。"
+    },
+    {
+      "name": "黄冈市人事考试网 - 公示公告",
+      "url": "http://www.hgrsks.gov.cn/gsgg/",
+      "level": "市级",
+      "region": "湖北-黄冈",
+      "publisherType": "市级人事考试网公告栏目",
+      "examTypes": [
+        "黄冈人事考试",
+        "招聘公告",
+        "公示公告"
+      ],
+      "priority": 1,
+      "notes": "黄冈人事考试网公示公告栏目。"
+    },
+    {
+      "name": "黄冈市人民政府",
+      "url": "http://www.hg.gov.cn/",
+      "level": "市级",
+      "region": "湖北-黄冈",
+      "publisherType": "市政府门户",
+      "examTypes": [
+        "黄冈政府公告",
+        "事业单位招聘转载"
+      ],
+      "priority": 2,
+      "notes": "黄冈市政府门户，也可能发布或转载事业单位招聘公告。"
+    },
+    {
+      "name": "咸宁市人社局 - 通知公告",
+      "url": "https://rsj.xianning.gov.cn/xwzx/tzgg/",
+      "level": "市级",
+      "region": "湖北-咸宁",
+      "publisherType": "市级人社局公告栏目",
+      "examTypes": [
+        "咸宁事业单位招聘",
+        "人才引进",
+        "通知公告"
+      ],
+      "priority": 1,
+      "notes": "咸宁人社局通知公告栏目。"
+    },
+    {
+      "name": "十堰市人事考试网",
+      "url": "https://www.syrsks.cn/",
+      "level": "市级",
+      "region": "湖北-十堰",
+      "publisherType": "市级人事考试网",
+      "examTypes": [
+        "十堰事业单位招聘",
+        "人事考试",
+        "报名入口"
+      ],
+      "priority": 1,
+      "notes": "十堰人事考试、事业单位招聘官方考试入口。"
+    },
+    {
+      "name": "随州市人力资源和社会保障局",
+      "url": "https://rsj.suizhou.gov.cn/",
+      "level": "市级",
+      "region": "湖北-随州",
+      "publisherType": "市级人社局",
+      "examTypes": [
+        "随州事业单位招聘",
+        "笔试提示",
+        "加分公示"
+      ],
+      "priority": 1,
+      "notes": "随州人社局官网，搜索结果显示事业单位招聘相关公告。"
+    },
+    {
+      "name": "恩施州人力资源和社会保障局",
+      "url": "http://rsj.enshi.gov.cn/",
+      "level": "州级",
+      "region": "湖北-恩施州",
+      "publisherType": "州级人社局",
+      "examTypes": [
+        "恩施州事业单位招聘",
+        "专项招聘",
+        "公告公示"
+      ],
+      "priority": 1,
+      "notes": "恩施州事业单位招聘官方发布入口。"
+    },
+    {
+      "name": "天门市人民政府 - 天门市人社局栏目",
+      "url": "https://www.tianmen.gov.cn/zwgk/bmhxzxxgkml/bm/srlzyhshbzj/",
+      "level": "市级",
+      "region": "湖北-天门",
+      "publisherType": "市政府人社局信息公开栏目",
+      "examTypes": [
+        "天门事业单位招聘",
+        "招考录用",
+        "拟聘公示"
+      ],
+      "priority": 1,
+      "notes": "天门市人社局官方栏目。"
+    },
+    {
+      "name": "仙桃市人社局 - 政务信息公开/考试录用栏目",
+      "url": "https://www.xiantao.gov.cn/bmxxgk/srsj/zfxxgk/zc/gfxwj/",
+      "level": "市级",
+      "region": "湖北-仙桃",
+      "publisherType": "市级人社局考试录用栏目",
+      "examTypes": [
+        "仙桃事业单位招聘",
+        "考试录用",
+        "公告"
+      ],
+      "priority": 1,
+      "notes": "搜索结果显示仙桃事业单位招聘官方发布栏目。"
+    },
+    {
+      "name": "神农架林区人社局",
+      "url": "http://rsj.snj.gov.cn/",
+      "level": "区级",
+      "region": "湖北-神农架",
+      "publisherType": "林区人社局",
+      "examTypes": [
+        "神农架事业单位招聘",
+        "考试公告",
+        "公示"
+      ],
+      "priority": 1,
+      "notes": "神农架事业单位招聘官方发布平台。"
+    },
+    {
+      "name": "孝感市人民政府门户网站",
+      "url": "https://www.xiaogan.gov.cn/",
+      "level": "市级",
+      "region": "湖北-孝感",
+      "publisherType": "市政府门户",
+      "examTypes": [
+        "孝感事业单位招聘",
+        "政府公告",
+        "部门招聘"
+      ],
+      "priority": 3,
+      "notes": "暂未定位清晰招聘栏目，可作为孝感官方检索入口。"
+    },
+    {
+      "name": "荆州市人民政府门户网站",
+      "url": "https://www.jingzhou.gov.cn/",
+      "level": "市级",
+      "region": "湖北-荆州",
+      "publisherType": "市政府门户",
+      "examTypes": [
+        "荆州事业单位招聘",
+        "政府公告",
+        "部门招聘"
+      ],
+      "priority": 3,
+      "notes": "暂未定位清晰招聘栏目，可作为荆州官方检索入口。"
+    }
+  ],
+  "updatedAt": "2026-05-31",
+  "summary": {
+    "totalPages": 71,
+    "priority1Pages": 39,
+    "regions": [
+      "全国",
+      "广东",
+      "广东-东莞",
+      "广东-中山",
+      "广东-云浮",
+      "广东-佛山",
+      "广东-广州",
+      "广东-揭阳",
+      "广东-梅州",
+      "广东-汕头",
+      "广东-汕尾",
+      "广东-江门",
+      "广东-河源",
+      "广东-深圳",
+      "广东-清远",
+      "广东-湛江",
+      "广东-潮州",
+      "广东-珠海",
+      "广东-韶关",
+      "湖北",
+      "湖北-仙桃",
+      "湖北-十堰",
+      "湖北-咸宁",
+      "湖北-天门",
+      "湖北-孝感",
+      "湖北-宜昌",
+      "湖北-恩施州",
+      "湖北-武汉",
+      "湖北-潜江",
+      "湖北-神农架",
+      "湖北-荆州",
+      "湖北-荆门",
+      "湖北-襄阳",
+      "湖北-鄂州",
+      "湖北-随州",
+      "湖北-黄冈",
+      "湖北-黄石"
+    ]
+  }
+}
